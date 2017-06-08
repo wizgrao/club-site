@@ -1,0 +1,19 @@
+{% extends "coolio.twig" %}
+{% block title %}Posts{% endblock %}
+{% block content %}
+    <h1>Posts</h1><br />
+    {% if permission == 1 %}
+        <form id="frm" action="postHandler.php" method="post" class = "post">
+            <input type="text" name="title" placeholder="Title"><br><br>
+<textarea name="txt" placeholder="Text" form="frm"></textarea><br><br>
+            <input type = "hidden" name = "division" value = "{{ division }}">
+<input type="submit" name="submit" value="Submit">
+</form>
+{% endif %}
+    {% for post in posts %}
+        <div class = "post">
+            <h2>{{ post.title }}</h2>
+            <span id="{{ post.type }}">{{ post.author }}</span> {{ post.date }}<br>{{ post.text|raw | nl2br }}
+        </div>
+    {% endfor %}
+{% endblock %}

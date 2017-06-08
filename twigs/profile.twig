@@ -1,0 +1,15 @@
+{% extends "coolio.twig" %}
+{% block title %}Profile - {{ name }}{% endblock %}
+{% block content %}
+    <div id="cont">
+        <form action="profileHandler.php" method="post">
+            <label for="name">Name: </label><input type="text" name ="name" id = "name" value = "{{ name }}"><br />
+            <label for="email">Email: </label><input type="email" name = "email" id = "email" value = "{{ email }}"><br />
+            User Name: {{ usr }}<br>
+            Division: {{ division }}<br>
+            Class: {{ class }}<br>
+            <input type="submit" value = "Change" name = "submit">
+
+        </form>
+    </div>
+{% endblock %}

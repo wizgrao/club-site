@@ -1,0 +1,85 @@
+ul.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    width: 100%;
+
+    background-color: #e8f1e7;
+    display: flex;
+    justify-content: space-between;
+
+
+
+
+
+}
+html, body{
+    display: block;
+    width: 100%;
+    margin:0px;
+    padding: 0px;
+    background-color: #e0e0e0;
+}
+
+li {
+    float: left;
+    margin: 0;
+    padding: 5px;
+
+}
+
+a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+
+}
+a:visited{
+    color: inherit;
+}
+
+a:hover{
+    color: blue;
+}
+*{
+    font-family: Lato;
+}
+.post{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+
+}
+#cont{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+#president{
+    background-color:  lightblue;
+}
+
+
+#officer{
+    background-color: lightgreen;
+}
+
+#sponsor{
+    background-color: palevioletred;
+}
+
+#president, #officer, #sponsor{
+    border-radius: 10px;
+    padding: 2px;
+}
+h1, h2 {
+    display: inline;
+
+}
+h1{
+    margin: 10px;
+}

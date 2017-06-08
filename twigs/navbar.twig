@@ -1,0 +1,7 @@
+<ul class="header">
+    {% for element in elements %}
+        <li>
+            <a href="{{ element.url }}">{{ element.text }}</a>
+        </li>
+    {% endfor %}
+</ul>
