@@ -1,2 +1,2 @@
 <?php
-header('posts.php' ) ;
+header('http:/posts.php' ) ;
