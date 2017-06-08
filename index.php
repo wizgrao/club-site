@@ -1,2 +1,2 @@
 <?php
-header('Location: http:/posts.php' ) ;
+header('Location: http:/forum/posts.php' ) ;
