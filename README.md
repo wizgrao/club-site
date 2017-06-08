@@ -1,0 +1,1 @@
+This is a wip club site thing I made to potentially replcae my high school math clubs facebook group. It would handle sign ups, posts, hours, etc. It is currently hosted on stuff.gauravity.com/forum/. I probably won't finish it as I have graduated high school
