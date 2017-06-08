@@ -16,8 +16,8 @@ ul.header {
 }
 html, body{
     display: block;
-    width: 100%;
-    margin:0px;
+    max-width: 650px;
+    margin:0px auto;
     padding: 0px;
     background-color: #e0e0e0;
 }
